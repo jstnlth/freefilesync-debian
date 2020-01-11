@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=FreeFileSync
+GenericName=Folder Comparison and Synchronization
+GenericName[de_DE]=Ordnervergleich und Synchronisation
+Exec=FreeFileSync %F
+Icon=freefilesync.png
+NoDisplay=false
+Terminal=false
+Categories=Utility;FileTools;
+Keywords=backup;restore;compare;synchronize;
+StartupNotify=true

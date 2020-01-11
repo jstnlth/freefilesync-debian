@@ -1,0 +1,56 @@
+Source: freefilesync
+Section: utils
+Priority: optional
+Maintainer: Justin Luth <jluth@mail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: http://freefilesync.org
+
+Package: freefilesync
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Synchronize Files and Folders
+ FreeFileSync is a folder comparison and synchronization software that
+ creates and manages backup copies of all your important files.
+ Instead of copying every file every time, FreeFileSync determines the
+ differences between a source and a target folder and transfers only the
+ minimum amount of data needed.
+ FreeFileSync is Open Source software, available for Windows, macOS, and Linux.
+ .
+    Synchronize folders on network shares and local drives
+    Synchronize mobile devices via MTP (Android, iPhone, tablet, digital camera)
+    Synchronize with Google Drive cloud storage
+    Free FTP client: synchronize via FTP (File Transfer Protocol) and FTPS
+    Access files online using SFTP (SSH File Transfer Protocol)
+    Detect moved and renamed files and folders
+    Manage versions and keep a history of deleted/updated files
+    Compare and synchronize multiple files in parallel
+    Show drive space usage as a directory tree
+    Copy locked files (Volume Shadow Copy Service)
+    Detect conflicts and propagate deletions
+    Compare files by content
+    Configure handling of Symbolic Links
+    Automate sync as a batch job
+    Process multiple folder pairs
+    Comprehensive and detailed error reporting
+    Copy NTFS extended attributes (compressed, encrypted, sparse)
+    Copy NTFS security permissions
+    Copy NTFS Alternate Data Streams
+    Copy HFS+ extended attributes and ACLs
+    Support long file paths with more than 260 characters
+    Fail-safe file copy prevents data corruption
+    Cross-platform: Runs on Windows, Linux, macOS
+    Use macros %time%, %date%, et al. for recurring backups
+    Expand environment variables like %UserProfile%
+    Access variable-drive-letters by volume name (USB sticks)
+    Native 64-bit support
+    Prevent disc space bottlenecks via optimal sync sequence
+    Full Unicode support
+    Highly optimized run time performance
+    Include and exclude files via filter
+    FreeFileSync portable and local installation available
+    Handle daylight saving time changes on FAT/FAT32
+    Case-sensitive synchronization
+    Serialize multiple users accessing the same (network) folder via locking
+    Fully localized user interface available in 30+ languages
+    ... download and use for free! 

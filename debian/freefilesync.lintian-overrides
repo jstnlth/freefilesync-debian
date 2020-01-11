@@ -1,0 +1,9 @@
+#just packaging a binary, not building from source, so ignore those kinds of warnings.
+freefilesync binary : binary-or-shlib-defines-rpath
+freefilesync binary : embedded-library
+freefilesync binary : hardening-no-pie
+freefilesync binary : new-package-should-close-itp-bug
+#The binary depends on Resources directory being in the parent directory.
+#  Therefore it only makes sense to put the whole thing in /opt.
+#  Apparently Debian and Ubuntu explicitly ignore this override and always complain...
+freefilesync binary : dir-or-file-in-opt

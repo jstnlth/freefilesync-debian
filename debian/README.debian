@@ -1,0 +1,7 @@
+The Debian Package freefilesync
+-----------------------------------
+The key to prevent corruption of the exectutable was:
+   debian/rules: export DEB_BUILD_OPTIONS = nostrip
+
+To update, it should be as simple as replacing
+opt/FreeFileSync with the contents of the new .zip

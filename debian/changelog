@@ -1,0 +1,5 @@
+freefilesync (10.19-1) bionic; urgency=medium
+
+  * Initial packaging release
+
+ -- Justin Luth <jluth@mail.com>  Sat, 11 Jan 2020 11:00:50 +0300

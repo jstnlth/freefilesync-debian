@@ -1,0 +1,6 @@
+#Both WINE and ZOOM do the same thing - symlink to /opt/...
+freefilesync source: source-contains-unsafe-symlink
+#Yes - source is missing
+freefilesync source: source-is-missing
+#The recommendation to use DEB_BUILD_MAINT_OPTIONS instead doesn't work
+freefilesync source: debian-rules-sets-DEB_BUILD_OPTIONS
